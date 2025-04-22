@@ -70,9 +70,6 @@ autoload -Uz add-zsh-hook
 add-zsh-hook precmd set_prompt
 typeset -U path PATH
 
-export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
-export PYTHONSTARTUP=~/.pythonrc
-
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 HISTFILE=~/.zsh_history
